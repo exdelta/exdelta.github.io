@@ -1009,6 +1009,7 @@
     { "addr": "0x58ded6994124b4fff298f1416aca3fc9cdba37b2", "name": "JOI", "decimals": 18 },
     { "addr": "0x7a74c427c833bad2a638e0fb203ba2c728f557c1", "name": "RDC", "decimals": 18 },
     { "addr": "0xfcd22febddc9c52bfefc2e762217dc4cd0325bd3", "name": "PT", "decimals": 2 },
+    { "addr": "0xcfc2437916A6df165235272dbfb116687bb1A00b", "name": "PLCN", "decimals": 18 },
     { "addr": "0xffe8196bc259e8dedc544d935786aa4709ec3e64", "name": "HDG", "decimals": 18 }
   ],
   "defaultPair": { "token": "WABI", "base": "ETH" }
