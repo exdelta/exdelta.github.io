@@ -32,7 +32,7 @@
   ],
   "tokens": [
    { "addr": "0x006bea43baa3f7a6f765f14f10a1a1b08334ef45", "name": "STX", "fullName": "Stox", "decimals": 18 },
-    { "addr": "0xe0e705c9bff67188a79dc5f59f0b2675031a6055", "name": "QUAD", "fullName": "", "decimals": 18 },
+    { "addr": "0xe0e705c9bff67188a79dc5f59f0b2675031a6055", "name": "QUAD", "fullName": "", "decimals": 8 },
     { "addr": "0x009e864923b49263c7f10d19b7f8ab7a9a5aad33", "name": "FKX", "fullName": "Knoxstertoken", "decimals": 18 },
     { "addr": "0x00a0cbe98e4d110b0fa82646152d77babf2951d0", "name": "EETHER", "fullName": "EETHER", "decimals": 18 },
     { "addr": "0x013a06558f07d9e6f9a00c95a33f3a0e0255176b", "name": "BALI", "fullName": "BALI COIN", "decimals": 18 },
@@ -647,7 +647,7 @@
     { "addr": "0x9b68bfae21df5a510931a262cecf63f41338f264", "name": "DBET", "fullName": "Decent.Bet Token", "decimals": 18 },
     { "addr": "0x9b70740e708a083c6ff38df52297020f5dfaa5ee", "name": "DAN", "fullName": "Daneel", "decimals": 10 },
     { "addr": "0x9b7593aae6b48d02668808c2dfbfc4bef35ef957", "name": "DVN", "fullName": "Developer Network Token", "decimals": 18 },
-    { "addr": "0x9b8eb7a73a3c65fc3c892b494ab29cb061cf05ae", "name": "1BIT", "fullName": "", "decimals": 0 },
+    { "addr": "0x9b8eb7a73a3c65fc3c892b494ab29cb061cf05ae", "name": "1BIT", "fullName": "1bit", "decimals": 0 },
     { "addr": "0x9c1d13d5a8fd4a8ac89917d31d40db454d1ee60b", "name": "ELUNCH", "fullName": "ethereum launcher", "decimals": 18 },
     { "addr": "0x9c23a568a32e8434ec88bdf60891a1d95ffd36cc", "name": "CHUCK", "fullName": "CHUCK NORRIS", "decimals": 4 },
     { "addr": "0x9c23d67aea7b95d80942e3836bcdf7e708a747c2", "name": "LOCI", "fullName": "LOCIcoin", "decimals": 18 },
