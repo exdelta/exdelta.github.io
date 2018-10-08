@@ -32,6 +32,7 @@
   ],
   "tokens": [
     { "addr": "0x006bea43baa3f7a6f765f14f10a1a1b08334ef45", "name": "STX", "decimals": 18 },
+    { "addr": "0x5d48b6b4020116b4cd3659d31c20ec422d592caa", "name": "GOT", "decimals": 18 },
     { "addr": "0xe0e705c9bff67188a79dc5f59f0b2675031a6055", "name": "QUAD", "decimals": 8 },
     { "addr": "0x009e864923b49263c7f10d19b7f8ab7a9a5aad33", "name": "FKX", "decimals": 18 },
     { "addr": "0x00a0cbe98e4d110b0fa82646152d77babf2951d0", "name": "EETHER", "decimals": 18 },
