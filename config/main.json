@@ -33,6 +33,7 @@
   "tokens": [
     { "addr": "0xfaf387ae15f51130a774719e3d4df3b55281ce97", "name": "CRYSTAL", "decimals": 18 },
     { "addr": "0x5d48b6b4020116b4cd3659d31c20ec422d592caa", "name": "GOT", "decimals": 18 },
+    { "addr": "0x42b6728aff7b813fe651b6bddb8448cb3cf18aba", "name": "CBIT", "decimals": 18 },
     { "addr": "0x9b8eb7a73a3c65fc3c892b494ab29cb061cf05ae", "name": "1BIT", "decimals": 18 }
   ],
   "defaultPair": { "token": "1BIT", "base": "ETH" }
