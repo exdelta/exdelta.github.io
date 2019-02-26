@@ -1,1 +1,232 @@
 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @exdelta Sign out
+0
+0 733 exdelta/exdelta.github.io
+forked from DEXdelta/dexdelta.github.io
+ Code  Pull requests 0  Projects 0  Insights  Settings
+exdelta.github.io/about/index.html
+@exdelta exdelta Update index.html
+6522d16  on Oct 10, 2018
+@DEXdelta @exdelta @JonathonDunford @activescott
+343 lines (289 sloc)  14.8 KB
+    
+<html>
+	<head>
+		
+		<title>Add token to DexDelta!</title>
+		<meta name="description" content="Add your ERC20 token to EXDelta today! EXDelta is a fully decentralized Ethereum Token Exchange with the most ERC20 listings of any exchange." />
+		
+		<meta property="og:url" content="https://dex.github.io" />
+	    <meta property="og:title" content="Add token to EXDelta!" />
+	    <meta property="og:description" content="Add your ERC20 token to EXDelta today! EXDelta is a fully decentralized Ethereum Token Exchange with the most ERC20 listings of any exchange." />
+	    <meta property="og:image" content="https://exdelta.github.io/images/logo.png" />
+
+	
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				background: #f7f7f7;
+				font-family: Segoe UI;
+				padding: 70px 0;
+			}
+			h1 {
+			  text-align: center;
+			  font-size: 3rem;
+			  font-weight: 200;
+			  margin-bottom: 20px;
+			}
+			h2 {
+				text-align: center;
+				font-size: 2rem;
+				font-weight: 200;
+			}
+			a {
+				text-decoration: none;
+			}
+			
+			img {
+				width: 100%;
+			}
+			.header {
+			    position: fixed;
+			    top: 0;
+			    left: 0;
+			    width: 100%;
+			    text-align: center;
+			    /* position: relative; */
+			    z-index: 9;
+			    background: #FFF;
+			    box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+			}
+			.header a {
+			    padding: 20px 30px;
+			    display: inline-block;
+			    text-decoration: none;
+			    color: #394b59;
+			}
+			.header a:hover {
+				color: #fe5f2c;
+			}
+			.content {
+				width: 1000px;
+				margin: 0 auto;
+				border:1px solid #E0E0E0;
+				padding:12px;
+				color:#212121;
+				background:#FFF;
+				font-size:15px;
+				line-height:1.45em;
+				box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+			}
+			/* accordion css */
+			#faqs {
+				width: 1000px;
+				box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+				margin: 0 auto;
+			}
+			.accordion-toggle,
+			.accordion-content {
+				width: 100%;
+				margin: 0 auto;
+			}
+			.accordion-toggle {
+				cursor: pointer;
+				background:#394b59;
+				padding:12px;
+				cursor:pointer;
+				border-right:1px solid #2d3d4a;
+				border-left:1px solid #2d3d4a;
+				border-bottom:1px solid #2d3d4a;
+				min-height:20px;
+				transition:.25s;
+				font-size:18px;
+				font-weight: normal;
+				line-height: 1.3em;
+				color:#ffffff;
+			}
+			.accordion-content {
+				display: none;
+				border-left:1px solid #E0E0E0;
+				border-right:1px solid #E0E0E0;
+				border-bottom:1px solid #E0E0E0;
+				padding:12px;
+				color:#212121;
+				background:#FFF;
+				font-size:15px;
+				line-height:1.45em;
+			}
+			.accordion-content.open { display: block; }
+			/* timeline css */
+			.timeline .demo-card-wrapper {
+			  position: relative;
+			  margin: auto;
+			}
+			.timeline .demo-card-wrapper::after {
+			  z-index: 1;
+			  content: "";
+			  position: absolute;
+			  top: 0;
+			  bottom: 0;
+			  left: 50%;
+			  border-left: 1px solid rgba(191, 191, 191, 0.4);
+			}
+			.timeline .demo-card {
+			  position: relative;
+			  display: block;
+			  margin: 10px auto;
+			  z-index: 2;
+			  max-width: 1000px;
+			  box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+			}
+			.timeline .demo-card .head {
+			  position: relative;
+			  display: flex;
+			  align-items: center;
+			  color: #fff;
+			  font-weight: 400;
+			}
+			.timeline .demo-card .head .number-box {
+			  display: inline;
+			  float: left;
+			  margin: 15px;
+			  padding: 10px;
+			  font-size: 35px;
+			  line-height: 35px;
+			  font-weight: 600;
+			  background: rgba(0, 0, 0, 0.17);
+			}
+			.timeline .demo-card .head h2 {
+			  font-size: 24px;
+			  font-weight: inherit;
+			  letter-spacing: 2px;
+			  margin: 0;
+			  padding-bottom: 6px;
+			  line-height: 26px;
+			  text-align: left;
+			}
+			.timeline .demo-card .head h2 span {
+			  display: block;
+			  font-size: 18px;
+			  text-transform: uppercase;
+			  margin: 0;
+			}
+			@media (min-width: 480px) {
+			  .timeline .demo-card .head h2 span {
+			    font-size: 0.8rem;
+			  }
+			}
+			.timeline .demo-card {
+				background: #394b59;
+			}
+			.timeline .demo-card.green {
+				background: #77DD77;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="header">
+			<a href="https://exdelta.github.io">Trade</a>
+			<a class="hash" href="#donate">Donate</a>
+			<a class="hash" href="#faqs">FAQs</a>
+		</div>
+
+		
+		<a name="#donate"></a>
+		<h1 style="margin-top: 120px;">Donate</h1>
+		<div class="content">
+			EXDelta currently interfaces with EtherDelta's original smart contract which allows EXDelta users to trade utilizing EtherDelta's volume. However, this means that the trading fees still go to EtherDelta and EXDelta development costs come entirely out of our pockets. If you are interested in the DexDelta project and would like to contribute to its future, please consider donating to the Ethereum address below.<br />
+			<h2>0x374C5Caa53A1418113F9b96098Ad631678B864F8</h2>
+			As this is a project by the community, for the community, transactions to and from the donations address will be public and can be viewed on the blockchain. We will also keep a public ledger of how the donations are distributed. That way, donors can see exactly how their donations are helping!
+		</div>
+
+		<a name="#faqs"></a>
+		<h1 style="margin-top: 120px;">Frequently Asked Questions</h1>
+
+		<div id="faqs">
+	<h4 class="accordion-toggle">How do I get my token listed on EXDelta?</h4>
+			<div class="accordion-content open">
+				Any member of the EXDelta community can request a token to be listed on EXDelta. send following details to exdeltateam@gmail.com
+				<br /><br />
+
+				
+				Contact address: <br />
+
+Decimals: <br />
+
+Official website: <br />
+
+Bitcointalk link: 
+			</div>
+
+	</body>
+</html>
