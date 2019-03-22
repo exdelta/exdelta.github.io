@@ -33,6 +33,7 @@
   "tokens": [
     { "addr": "0xca008ac4a97907e949ba21fe14ceec1af7c3932a", "name": "DEX", "decimals": 8 },
     { "addr": "0x006bea43baa3f7a6f765f14f10a1a1b08334ef45", "name": "STX", "decimals": 18 },
+    { "addr": "0x58f83cd5030abfba14b9603021661ca1fd09b9a2", "name": "GOLD", "decimals": 18 },
     { "addr": "0x1B46656F3a5dE413892a71F2266a42FafE6A6d89", "name": "0GRS", "decimals": 18 },
     { "addr": "0xe951a23c3cd0cfd3238b9476e7eba3efdaded8b2", "name": "G", "decimals": 18 },
     { "addr": "0x0F5AdB011AbD9d2802d422971e992854aBF47e7c", "name": "TOKEN", "decimals": 18 },
